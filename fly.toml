@@ -23,4 +23,4 @@ primary_region = 'jnb'
 
 [[mounts]]
   source = "data"  # Name of your Fly volume
-  destination = "/app/data"  # Mount point inside the container
+  destination = "/data"  # Mount point inside the container
