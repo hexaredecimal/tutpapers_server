@@ -1,0 +1,5 @@
+#!/bin/bash
+
+fly apps create tutpapers
+fly volumes create data --size 1 --region jnb
+fly deploy .
